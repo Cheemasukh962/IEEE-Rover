@@ -1,0 +1,24 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Models and training output
+*.pt
+*.onnx
+*_ncnn_model/
+runs/
+
+# Dataset and photos (keep on Roboflow or a shared drive)
+data/images/
+data/labels/
+data/raw/
+data/raw_labels/
+*.mp4
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
